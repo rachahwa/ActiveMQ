@@ -68,6 +68,11 @@ docker ps -a
 
 ### Étape 3 : Accéder à l'interface d'ActiveMQ
 
+Cette commande vous permet de trouver l'adresse IP locale de votre machine, ce qui est essentiel pour accéder à l'interface web d'ActiveMQ :
+```bash
+ifconfig
+```
+
 Une fois que vous avez lancé ActiveMQ avec `docker-compose up -d`, vous pouvez accéder à l'interface web d'ActiveMQ depuis votre navigateur via l'URL suivante :
 
 `http://localhost:8161`
@@ -85,7 +90,4 @@ Dans mon cas l'adresse ip est la même pour les 4 cas :
 
 <img width="639" alt="nmap2015" src="https://github.com/user-attachments/assets/a6e3118d-a826-44f5-802c-522409b25798">
 
-Cette commande vous permet de trouver l'adresse IP locale de votre machine, ce qui est essentiel pour accéder à l'interface web d'ActiveMQ :
-```bash
-ifconfig
-```
+
