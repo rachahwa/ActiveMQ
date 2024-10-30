@@ -77,4 +77,4 @@ Une fois que vous avez lancé ActiveMQ avec `docker-compose up -d`, vous pouvez 
 - **Nom d'utilisateur** : `admin`
 - **Mot de passe** : `admin`
 
-https://github.com/rachahwa/ActiveMQ/issues/2#issue-2625124003
+![Interface ActiveMQ admin](https://github.com/rachahwa/ActiveMQ/issues/2#issue-2625124003)
