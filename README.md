@@ -78,3 +78,10 @@ Une fois que vous avez lancé ActiveMQ avec `docker-compose up -d`, vous pouvez 
 - **Mot de passe** : `admin`
 
 <img width="1440" alt="admin" src="https://github.com/user-attachments/assets/8941410e-eb1d-470a-8f84-447b94f5e37d">
+
+**Scan du réseau :**
+
+Dans mon cas l'adresse ip est la même pour les 4 cas :
+
+<img width="639" alt="nmap2015" src="https://github.com/user-attachments/assets/a6e3118d-a826-44f5-802c-522409b25798">
+
