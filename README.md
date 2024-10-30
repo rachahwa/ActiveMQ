@@ -79,14 +79,18 @@ Dans mon cas l'adresse ip est la même pour les 4 cas :
 Le port pour ActiveMQ est le 8161
 
 
+**Adresse IP :**
+
 Cette commande vous permet de trouver l'adresse IP locale de votre machine, ce qui est essentiel pour accéder à l'interface web d'ActiveMQ :
 ```bash
 ifconfig
 ```
 
-Une fois que vous avez lancé ActiveMQ avec `docker-compose up -d`, trouver le port et l'adresse ip, vous pouvez accéder à l'interface web d'ActiveMQ depuis votre navigateur via l'URL suivante :
+**Interface web: **
+Une fois que vous avez lancé ActiveMQ avec `docker-compose up -d`, trouvé le port et l'adresse ip, vous pouvez accéder à l'interface web d'ActiveMQ depuis votre navigateur via l'URL suivante :
 
 `http://localhost:8161`
+
 
 **Identifiants de connexion par défaut :**
 
