@@ -50,3 +50,29 @@ docker-compose up -d
 - Démarrer des conteneurs
 - Lier les conteneurs ensemble
 
+### Étape 2 : Vérifier les conteneurs en cours d'exécution
+
+Pour vérifier que vos conteneurs ActiveMQ sont bien lancés, utilisez la commande suivante :
+
+```bash
+docker container ls
+```
+
+Cette commande m'a été et pourra vous être assez utile, puisqu'elle permet d'identifier rapidement quel conteneur est actif.
+
+Ou encore celle-ci qui permet de visualiser tous les conteneurs qu'ils soient actifs ou pas:
+
+```bash
+docker ps -a
+```
+
+### Étape 3 : Accéder à l'interface d'ActiveMQ
+
+Une fois que vous avez lancé ActiveMQ avec `docker-compose up -d`, vous pouvez accéder à l'interface web d'ActiveMQ depuis votre navigateur via l'URL suivante :
+
+`http://localhost:8161`
+
+**Identifiants de connexion par défaut :**
+
+- **Nom d'utilisateur** : `admin`
+- **Mot de passe** : `admin`
