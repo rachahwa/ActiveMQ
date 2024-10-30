@@ -21,7 +21,7 @@ Avant de commencer, assurez-vous d'avoir installé :
 
 Docker propose une interface graphique, appelée **Docker Desktop**, qui simplifie la gestion des conteneurs. On peut facilement y visualiser les conteneurs en cours d'exécution ou encore parcourir les images.
 
-Ayant travaillé directement sur mon Mac en local, l'interface m'a simplifié le travail. En effet, dû au problème de *binding* de ports : *lorsque l'on lie un port d’un conteneur à un port de la machine hôte, ce port de la machine hôte devient occupé par le service du conteneur*. Cela signifie que l'on *ne peut pas exécuter un autre service sur ce même port de la machine hôte tant que le conteneur est en cours d'exécution*. Il faut alors *utiliser un autre port ou le libérer*.
+Ayant travaillé directement sur mon Mac en local, l'interface m'a simplifié le travail. En effet, cela est dû aux problèmes de *binding* de ports : *lorsque l'on lie un port d’un conteneur à un port de la machine hôte, ce port de la machine hôte devient occupé par le service du conteneur*. Cela signifie que l'on *ne peut pas exécuter un autre service sur ce même port de la machine hôte tant que le conteneur est en cours d'exécution*. Il faut alors *utiliser un autre port ou le libérer*.
 
 
 ## Lancer ActiveMQ avec Docker
