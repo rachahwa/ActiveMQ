@@ -77,5 +77,4 @@ Une fois que vous avez lancé ActiveMQ avec `docker-compose up -d`, vous pouvez 
 - **Nom d'utilisateur** : `admin`
 - **Mot de passe** : `admin`
 
-https://github.com/rachahwa/ActiveMQ/issues/2#issue-2625124003)
-https://private-user-images.githubusercontent.com/184439226/381703357-8976776e-5929-4e68-ba6a-f883444b290e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzAzMTY5ODEsIm5iZiI6MTczMDMxNjY4MSwicGF0aCI6Ii8xODQ0MzkyMjYvMzgxNzAzMzU3LTg5NzY3NzZlLTU5MjktNGU2OC1iYTZhLWY4ODM0NDRiMjkwZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMDMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTAzMFQxOTMxMjFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wOWY3OTUyYzI2NmMxNWY3Y2I4NjQ3MGU5Nzk3MzExODNiODhlZmFhYzIwYTM0ZWU1MDNlOTIxOTdiYmNhYjBlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.vkNGzMFXxrjpNMF6yDPSuXZoaY-XNKTMy08EMukEWJY
+<img width="1440" alt="admin" src="https://github.com/user-attachments/assets/8941410e-eb1d-470a-8f84-447b94f5e37d">
