@@ -66,14 +66,25 @@ Ou encore celle-ci qui permet de visualiser tous les conteneurs qu'ils soient ac
 docker ps -a
 ```
 
+
+
 ### Étape 3 : Accéder à l'interface d'ActiveMQ
+
+**Scan du réseau :**
+
+Dans mon cas l'adresse ip est la même pour les 4 cas :
+
+<img width="639" alt="nmap2015" src="https://github.com/user-attachments/assets/a6e3118d-a826-44f5-802c-522409b25798">
+
+Le port pour ActiveMQ est le 8161
+
 
 Cette commande vous permet de trouver l'adresse IP locale de votre machine, ce qui est essentiel pour accéder à l'interface web d'ActiveMQ :
 ```bash
 ifconfig
 ```
 
-Une fois que vous avez lancé ActiveMQ avec `docker-compose up -d`, vous pouvez accéder à l'interface web d'ActiveMQ depuis votre navigateur via l'URL suivante :
+Une fois que vous avez lancé ActiveMQ avec `docker-compose up -d`, trouver le port et l'adresse ip, vous pouvez accéder à l'interface web d'ActiveMQ depuis votre navigateur via l'URL suivante :
 
 `http://localhost:8161`
 
@@ -84,10 +95,5 @@ Une fois que vous avez lancé ActiveMQ avec `docker-compose up -d`, vous pouvez 
 
 <img width="1440" alt="admin" src="https://github.com/user-attachments/assets/8941410e-eb1d-470a-8f84-447b94f5e37d">
 
-**Scan du réseau :**
-
-Dans mon cas l'adresse ip est la même pour les 4 cas :
-
-<img width="639" alt="nmap2015" src="https://github.com/user-attachments/assets/a6e3118d-a826-44f5-802c-522409b25798">
 
 
