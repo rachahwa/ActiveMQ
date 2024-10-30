@@ -24,6 +24,10 @@ Docker propose une interface graphique, appelée **Docker Desktop**, qui simplif
 Ayant travaillé directement sur mon Mac en local, l'interface m'a simplifié le travail. En effet, cela est dû aux problèmes de *binding* de ports : *lorsque l'on lie un port d’un conteneur à un port de la machine hôte, ce port de la machine hôte devient occupé par le service du conteneur*. Cela signifie que l'on *ne peut pas exécuter un autre service sur ce même port de la machine hôte tant que le conteneur est en cours d'exécution*. Il faut alors *utiliser un autre port ou le libérer*.
 
 
+<img width="1259" alt="Capture d’écran 2024-10-30 à 21 18 27" src="https://github.com/user-attachments/assets/718b8d87-7dc5-4680-ac5c-a88c23d32066">
+
+
+
 ## Lancer ActiveMQ avec Docker
 
 Voici comment lancer ActiveMQ à l'aide de Docker pour chacune des cas du TP ActiveMQ:
