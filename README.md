@@ -13,9 +13,13 @@ Avant de commencer, assurez-vous d'avoir installé :
 - [Docker](https://www.docker.com/get-started)
 - [Docker Compose](https://docs.docker.com/compose/)
 
+
+
  ## Qu'est-ce que Docker ?
 
 [Docker](https://www.docker.com/) est la plateforme de conteneurisation la plus utilisée. 
+
+
 
 ## Interface graphique de Docker
 
@@ -30,7 +34,10 @@ Ayant travaillé directement sur mon Mac en local, l'interface m'a simplifié le
 
 ## Lancer ActiveMQ avec Docker
 
+
 Voici comment lancer ActiveMQ à l'aide de Docker pour chacune des cas du TP ActiveMQ:
+
+
 
 ### Étape 1 : Récupérer le fichier `docker-compose.yml`
 
@@ -54,6 +61,8 @@ docker-compose up -d
 - Démarrer des conteneurs
 - Lier les conteneurs ensemble
 
+
+
 ### Étape 2 : Vérifier les conteneurs en cours d'exécution
 
 Pour vérifier que vos conteneurs ActiveMQ sont bien lancés, utilisez la commande suivante :
@@ -74,6 +83,7 @@ docker ps -a
 
 ### Étape 3 : Accéder à l'interface d'ActiveMQ
 
+
 **Scan du réseau :**
 
 Dans mon cas l'adresse ip est la même pour les 4 cas :
@@ -81,6 +91,7 @@ Dans mon cas l'adresse ip est la même pour les 4 cas :
 <img width="639" alt="nmap2015" src="https://github.com/user-attachments/assets/a6e3118d-a826-44f5-802c-522409b25798">
 
 Le port pour ActiveMQ est le 8161
+
 
 
 **Adresse IP :**
@@ -95,10 +106,13 @@ ifconfig
 ip a
 ```
 
+
+
 **Interface web: **
 Une fois que vous avez lancé ActiveMQ avec `docker-compose up -d`, trouvé le port et l'adresse ip, vous pouvez accéder à l'interface web d'ActiveMQ depuis votre navigateur via l'URL suivante :
 
 `http://localhost:8161`
+
 
 
 **Identifiants de connexion par défaut :**
