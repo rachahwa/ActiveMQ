@@ -90,6 +90,11 @@ Cette commande vous permet de trouver l'adresse IP locale de votre machine, ce q
 ifconfig
 ```
 
+Évidemment, si vous travaillez sur linux, la commande est la suivante :
+```bash
+ip a
+```
+
 **Interface web: **
 Une fois que vous avez lancé ActiveMQ avec `docker-compose up -d`, trouvé le port et l'adresse ip, vous pouvez accéder à l'interface web d'ActiveMQ depuis votre navigateur via l'URL suivante :
 
