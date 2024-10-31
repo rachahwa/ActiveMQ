@@ -108,7 +108,8 @@ ip a
 
 
 
-**Interface web: **
+**Interface web :**
+
 Une fois que vous avez lancé ActiveMQ avec `docker-compose up -d`, trouvé le port et l'adresse ip, vous pouvez accéder à l'interface web d'ActiveMQ depuis votre navigateur via l'URL suivante :
 
 `http://localhost:8161`
