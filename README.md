@@ -1,6 +1,5 @@
 # ActiveMQ
 
-# ActiveMQ avec Docker
 
 ## Qu'est-ce qu'ActiveMQ ?
 
