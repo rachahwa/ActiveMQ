@@ -34,7 +34,7 @@ Ayant travaillé directement sur mon Mac en local, l'interface m'a simplifié le
 ## Lancer ActiveMQ avec Docker
 
 
-Voici comment lancer ActiveMQ à l'aide de Docker pour chacune des cas du TP ActiveMQ:
+Voici comment lancer ActiveMQ à l'aide de Docker pour chacun des cas du TP ActiveMQ:
 
 
 
